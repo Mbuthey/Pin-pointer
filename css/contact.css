@@ -1,0 +1,114 @@
+.row{
+    padding-top: 5px;
+}
+.contact {
+    background:#fff; 
+    padding:10px 0;
+  }
+  .contact-head p{
+    padding: 0 100px;
+  }
+  .contact-left {
+    margin-top: 50px;
+    flex-basis: 40%;
+  }
+  .contact-right {
+    flex-basis: 50%;
+    margin-top: -1rem;
+  }
+  .contact-left p {
+    margin-top: 30px;
+    color:#787676;
+  }
+  .contact-left p i {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .social-icons {
+    margin: 20px 0 10px -40px;
+  }
+  .social-icons a {
+    text-decoration: none;
+    background-color: #e7d1ee;
+    padding:10px 20px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 35px;
+    color: #21042C;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .social-icons a:hover {
+    background-color: #21042C;
+    color: #e7d1ee;
+    transform: translateY(-5px);
+  }
+  .btn.btn2 {
+    font-size: 14px;
+    padding: 0 -30px;
+    
+  }
+  .contact-right form {
+    width: 100%;
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    border: 1.5px solid #787676;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: poppins;
+    font-size: 14px;
+    border-radius: 6px;
+    color:#fff;
+  }
+  form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    
+    cursor: pointer;
+    border: #21042C;
+    background:#21042C;
+    color:rgb(0, 0, 0);
+  }
+
+
+  /* ---------------------------------------------Responsiveness-3(1080px)----------------------------------------- */
+
+@media only screen and (min-width: 1080px) {
+    .contact-left{
+      height: 90vh;
+    }
+    .contact-left .contact-head{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .contact-left .sub-title{
+      margin-bottom: -20px;
+    }
+    .contact-left .social-icons a{
+      margin-top: 20px; 
+      position: relative; 
+        left: 40%;
+    }
+    .form{
+      display: flex;
+      display: block;
+      width:10%;
+    }
+    .contact-right{
+      position: relative;
+        top:-310px;
+        left:20%;
+      width: 70%;    
+    }
+  }
+  
+  
+  
