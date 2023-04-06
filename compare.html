@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare cities</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\compare.css">
+    <link rel="stylesheet" href="css\search.css">
+    <script src="https://kit.fontawesome.com/5af51d7315.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <div class="big-wrapper">
+        <img src="./img/shape.png" alt="" class="shape">
+
+        <!-- /* ---------------------------------------------Navbar----------------------------------------- */ -->
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                    <!-- <img src="./images/logo.png" alt="Logo"> -->
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="search.html">Cost of living</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn">Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="overlay"></div>
+
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="bottom-area">
+            <div class="container">
+                <button class="toggle-btn">
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- /* --------------------------------------------Compare countries------------------------------------------- */ -->
+
+        <div class="compare-hero">
+            <div class="compare-ttle">
+                <h2>Compare living cost</h2>
+                <p>Compare cities across the globe along with its indicators: cost of Living index, rent Index, tax etc
+                    for
+                    two cities.</p>
+            </div>
+            <div class="hero-container">
+
+                <div class="hero-right">
+                    <div class="right-container">
+                        <div class="about-city">
+                            <img src="images/kenyanflag.jpg" alt="" class="">
+                            <div class="city">
+                                <h4>Cost of living in</h4>
+                                <h2><span>Nairobi</span> , <span>Kenya</span></h2>
+                            </div>
+                        </div>
+                        <div class="fun-fact">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, veritatis adipisci nobis
+                                laborum porro dolorem pariatur repudiandae? Dicta deserunt omnis eaque quasi! Magni ut
+                                expedita vel nisi repellat explicabo eveniet. Dicta deserunt omnis eaque quasi! Magni ut
+                                expedita vel nisi repellat explicabo eveniet.</p>
+
+                            <a href="country.html" id="country-btn">About country</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="hero-left">
+                    <img src="images/compare-image.jpg" alt="compare-image">
+                    <div class="box">
+                        <h3>Selected city</h3>
+                        <div class="wrapper">
+                            <div class="select-btn">
+                                <span class="first-city-select city1">Select city</span>
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="content">
+                                <div class="search">
+                                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Search" class="search-country">
+                                    <!-- <a href="#" class="primary-cta btn butt">Search</a> -->
+                                </div>
+                                <ul class="options">
+                                    <div class="loader-container hidden">
+                                        <div class="loader"></div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box box2">
+                        <h3>Compare with</h3>
+                        <div class="wrapper">
+                            <div class="select-btn">
+                                <span class="city2">Select city</span>
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="content">
+                                <div class="search">
+                                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Search" class="search-country">
+                                    <!-- <a href="#" class="primary-cta btn butt">Search</a> -->
+                                </div>
+                                <ul class="options">
+                                    <div class="loader-container hidden">
+                                        <div class="loader"></div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn1 compareBtn">Search</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /* --------------------------------------------About city------------------------------------------- */ -->
+
+        <div class="details">
+            <div class="details-ttle">
+                <h3>About Nairobi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nulla corporis hic minus architecto
+                    exercitationem voluptatibus, odio iusto obcaecati nostrum.</p>
+            </div>
+            <div class="map-attr">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Lavinton%20Kigali,%20Rwanda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+                <div class="city-attr">
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>REGION</h4>
+                            <p class="localtime"></p>
+                        </div>
+                    </div>
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>Population</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>Latiude & Longitude</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>SUBREGION</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>CURRENCY</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="attr">
+                        <div class="attr-details">
+                            <h4>CALLING CODE</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* --------------------------------------------Comparing goods and services------------------------------------------- */ -->
+
+        <div id="portfolio">
+            <div class="tabs">
+                <div class="tabs__head">
+                    <div class="tabs__toggle is-active">
+                        <span class="tabs__name">Housing</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Food</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Transport</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Tax</span>
+                    </div>
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Utilities</span>
+                    </div>
+                </div>
+
+                <div class="tabs__body">
+                    <div class="tabs__content is-active">
+                        <div class="info-container">
+                            <div class="info">
+                                <h3>Housing</h3>
+                                <div id="table-container">
+                                    <table id="data-table-housing" class="compare-table">
+                                        <tr>
+                                            <td>ITEM</td>
+                                            <td>PRICES</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <img src="images/data.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="info-container">
+                            <div class="info">
+                                <h3>Food</h3>
+                                <div id="table-container">
+                                    <table id="data-table-food" class="compare-table">
+                                        <tr>
+                                            <td>ITEM</td>
+                                            <td>PRICES</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <img src="images/data.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="info-container">
+                            <div class="info">
+                                <h3>Transport</h3>
+                                <div id="table-container">
+                                    <table id="data-table-transport" class="compare-table">
+                                        <tr>
+                                            <td>ITEM</td>
+                                            <td>PRICES</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <img src="images/data.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="info-container">
+                            <div class="info">
+                                <h3>Tax</h3>
+                                <div id="table-container">
+                                    <table id="data-table-tax" class="compare-table">
+                                        <tr>
+                                            <td>ITEM</td>
+                                            <td>PRICES</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <img src="images/data.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="info-container">
+                            <div class="info">
+                                <h3>Utilities</h3>
+                                <div id="table-container">
+                                    <table id="data-table-utilities" class="compare-table">
+                                        <tr>
+                                            <td>ITEM</td>
+                                            <td>PRICES</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <img src="images/data.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* ---------------------------------------------Javascipt files------------------------------------------- */ -->
+
+        <script src="compare.js"></script>
+        <script src="index.js"></script>
+
+</body>
+
+</html>
