@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin pointer</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\contact.css">
+    <script src="https://kit.fontawesome.com/5af51d7315.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <div class="big-wrapper">
+        <img src="./img/shape.png" alt="" class="shape">
+
+        <!-- /* ---------------------------------------------Navbar----------------------------------------- */ -->
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                    <!-- <img src="./images/logo.png" alt="Logo"> -->
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="search.html">Cost of living</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn">Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="overlay"></div>
+
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="bottom-area">
+            <div class="container">
+                <button class="toggle-btn">
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- /* ---------------------------------------------Contact------------------------------------------- */ -->
+
+        <div id="contact">
+            <section class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <div class="contact-head">
+                                <h1 class="sub-title">HOW CAN WE HELP?</h1>
+                                <p>Thank you for taking the time to visit <b>Pin Pointer!</b> If you have any questions, or
+                                    feedback, don't hesitate to contact us. We will do our best to get back to you as soon as possible</p>
+                            </div>
+                            <div class="form">
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="contact-right">
+                                <form method="POST" action="contact.php">
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                    <input type="email" name="email" placeholder="Your email" required>
+                                    <textarea name="message" rows="6" placeholder="How can we help?"></textarea>
+                                    <button type="submit" class="btn btn2">Let's talk</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+</body>
+
+</html>

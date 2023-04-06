@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\search.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://kit.fontawesome.com/5af51d7315.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="big-wrapper">
+        <img src="./img/shape.png" alt="" class="shape">
+
+        <!-- /* ---------------------------------------------Navbar----------------------------------------- */ -->
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                    <!-- <img src="./images/logo.png" alt="Logo"> -->
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="search.html">Cost of living</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn">Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="overlay"></div>
+
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="bottom-area">
+            <div class="container">
+                <button class="toggle-btn">
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- /* -----------------------------------------Search wrapper------------------------------------------- */ -->
+
+        <div class="wrapper-container">
+
+            <div class="pin-logo">
+                <img src="./images/logo.png" alt="Logo">
+                <p>Planning to move to different city? The biggest factors in any move are the standard of
+                    living and what salary you’ll need to make in order to reach that standard. Search for a country to
+                    figure out if your move will work for your budget, salary and expectations.<p>
+
+                    <div class="wrapper">
+                        <div class="select-btn">
+                            <span>Search Country</span>
+                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="content">
+                            <div class="search">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Search" class="search-country">
+                                <!-- <a href="#" class="primary-cta btn butt">Search</a> -->
+                            </div>
+                            <ul class="options">
+                                <!-- <li>Kenya</li>
+                    <li>Uganda</li>
+                    <li>Australia</li>
+                    <li>Mauritius</li>
+                    <li>Djibouti</li>
+                    <li>Congo</li>
+                    <li>India</li>
+                    <li>USA</li>  -->
+                                <div class="loader-container hidden">
+                                    <div class="loader"></div>
+                                </div>
+                            </ul>
+                        </div>
+                        <a href="compare.html" id="submit-button">Search</a>
+                    </div>
+
+
+            </div>
+
+            <!-- /* ---------------------------------------------Javascipt files------------------------------------------- */ -->
+
+            <script src="search.js"></script>
+            <script src="index.js"></script>
+</body>
+
+</html>
